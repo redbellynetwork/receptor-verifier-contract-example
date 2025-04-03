@@ -24,16 +24,16 @@ const config: HardhatUserConfig = {
   mocha: {
     timeout: 20000, // Increase the timeout value if needed
   },
-  defaultNetwork: "local",
+  defaultNetwork: "testnet",
   networks: {
     hardhat: {
       chainId: 31337,
       blockGasLimit: 0x1fffffffffffff,
     },
-    local: {
+    testnet: {
       accounts: [`${process.env.PRIVATE_KEY}`],
-      url: `${process.env.RPC_URL}`,
-      chainId: Number(process.env.CHAIN_ID),
+      url: "https://governors.testnet.redbelly.network",
+      chainId: 153,
     },
   },
 };

@@ -4,8 +4,7 @@
   "description": "This repo inherits the package receptor-standardvc-sc and use VCVerifierBase abstract contract and implements it",
   "main": "README.md",
   "scripts": {
-    "compile": "hardhat compile",
-    "test": "hardhat test"
+    "compile": "hardhat compile"
   },
   "engines": {
     "node": ">=20.0.0"
