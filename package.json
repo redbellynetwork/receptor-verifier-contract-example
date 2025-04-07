@@ -1,0 +1,31 @@
+{
+  "name": "@redbellynetwork/receptor-verifier-contract-example",
+  "version": "1.0.0",
+  "description": "This repo inherits the package receptor-standardvc-sc and use VCVerifierBase abstract contract and implements it",
+  "main": "README.md",
+  "scripts": {
+    "compile": "hardhat compile"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redbellynetwork/receptor-verifier-contract-example.git"
+  },
+  "keywords": [
+    "receptor-verifier-contract-example"
+  ],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/redbellynetwork/receptor-verifier-contract-example#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "5.0.0",
+    "hardhat": "2.22.3"
+  },
+  "dependencies": {
+    "@redbellynetwork/receptor-standardvc-sc": "^0.0.2",
+    "canonicalize": "^2.1.0",
+    "dotenv": "16.4.7"
+  }
+}
