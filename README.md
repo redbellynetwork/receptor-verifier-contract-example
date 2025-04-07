@@ -14,6 +14,8 @@ This repo inherits the package receptor-standardvc-sc and use VCVerifierBase abs
 
 - Use `npm i` to install the dependencies.
 
+Ensure your project is configured to access GitHub Packages via authentication using a valid GitHub token. This can be done by exporting GITHUB_TOKEN or adding it in .npmrc file in your project directory.
+
 ### How to compile contracts and libraries in hardhat
 
 - Use `npm run compile` command
